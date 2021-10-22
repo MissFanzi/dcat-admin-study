@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9946f4387b9739fc32a28b847d03aee5",
+    "content-hash": "c5624edad438a5f48676fa39637ac115",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -123,6 +123,61 @@
             "time": "2021-08-15T20:50:18+00:00"
         },
         {
+            "name": "celaraze/dcat-extension-plus",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/celaraze/dcat-extension-plus.git",
+                "reference": "94093cf8c99d4b903d81d499119ff1c3d973e0fe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/celaraze/dcat-extension-plus/zipball/94093cf8c99d4b903d81d499119ff1c3d973e0fe",
+                "reference": "94093cf8c99d4b903d81d499119ff1c3d973e0fe",
+                "shasum": ""
+            },
+            "require": {
+                "dcat/laravel-admin": "~2.0",
+                "php": ">=7.3.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "dcat-admin": "Celaraze\\DcatPlus\\ServiceProvider",
+                "laravel": {
+                    "providers": [
+                        "Celaraze\\DcatPlus\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Celaraze\\DcatPlus\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Celaraze",
+                    "email": "celaraze@qq.com"
+                }
+            ],
+            "description": "增强 DcatAdmin 的使用体验。",
+            "homepage": "https://github.com/celaraze/dcat-extension-plus",
+            "keywords": [
+                "dcat-admin",
+                "extension"
+            ],
+            "support": {
+                "issues": "https://github.com/celaraze/dcat-extension-plus/issues",
+                "source": "https://github.com/celaraze/dcat-extension-plus/tree/master"
+            },
+            "time": "2021-05-20T03:02:30+00:00"
+        },
+        {
             "name": "dcat/laravel-admin",
             "version": "2.1.5-beta",
             "source": {
@@ -190,6 +245,60 @@
                 "source": "https://github.com/jqhph/dcat-admin/tree/2.1.5-beta"
             },
             "time": "2021-09-17T06:04:27+00:00"
+        },
+        {
+            "name": "death_satan/dcat-env",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Death-Satan/dcat-env.git",
+                "reference": "32368e2319d9e8db3f5b4f5662b9876142607e66"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Death-Satan/dcat-env/zipball/32368e2319d9e8db3f5b4f5662b9876142607e66",
+                "reference": "32368e2319d9e8db3f5b4f5662b9876142607e66",
+                "shasum": ""
+            },
+            "require": {
+                "dcat/laravel-admin": "~2.0",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "dcat-admin": "SaTan\\Dcat\\EnvHelper\\DcatEnvServiceProvider",
+                "laravel": {
+                    "providers": [
+                        "SaTan\\Dcat\\EnvHelper\\DcatEnvServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SaTan\\Dcat\\EnvHelper\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Death-SaTan",
+                    "email": "2771717608@qq.com"
+                }
+            ],
+            "description": "dcat-admin quick edit .env",
+            "homepage": "https://github.com/death_satan/dcat-env",
+            "keywords": [
+                "dcat-admin",
+                "extension"
+            ],
+            "support": {
+                "issues": "https://github.com/Death-Satan/dcat-env/issues",
+                "source": "https://github.com/Death-Satan/dcat-env/tree/v1.0"
+            },
+            "time": "2021-09-21T05:57:01+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -8174,7 +8283,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "celaraze/dcat-extension-plus": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
