@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9093097e300ceba49dd26d521fa37b3d",
+    "content-hash": "f19f1635e973ca5a8d90fa600731a7c0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -124,31 +124,30 @@
         },
         {
             "name": "dcat/laravel-admin",
-            "version": "1.7.9",
+            "version": "2.1.5-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jqhph/dcat-admin.git",
-                "reference": "dabd5f14133e7b7e906b57aa4f7ed536ee052ead"
+                "reference": "1bdf20e393ac9d098aba4fd1367aa4f736d7bc28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jqhph/dcat-admin/zipball/dabd5f14133e7b7e906b57aa4f7ed536ee052ead",
-                "reference": "dabd5f14133e7b7e906b57aa4f7ed536ee052ead",
+                "url": "https://api.github.com/repos/jqhph/dcat-admin/zipball/1bdf20e393ac9d098aba4fd1367aa4f736d7bc28",
+                "reference": "1bdf20e393ac9d098aba4fd1367aa4f736d7bc28",
                 "shasum": ""
             },
             "require": {
-                "doctrine/dbal": "2.*",
+                "doctrine/dbal": "^2.6|^3.0",
                 "laravel/framework": "~5.5|~6.0|~7.0|~8.0",
                 "php": ">=7.1.0",
-                "spatie/eloquent-sortable": "3.*",
-                "symfony/dom-crawler": "~3.1|~4.0|~5.0"
+                "spatie/eloquent-sortable": "3.*|4.*"
             },
             "require-dev": {
                 "fzaninotto/faker": "^1.4",
-                "laravel/dusk": "~5.9",
+                "laravel/dusk": "~5.9|~6",
                 "mockery/mockery": "^1.0",
                 "phpstan/phpstan": "^0.12.0",
-                "phpunit/phpunit": "^7.5"
+                "phpunit/phpunit": "^7.5|~9"
             },
             "type": "library",
             "extra": {
@@ -188,9 +187,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jqhph/dcat-admin/issues",
-                "source": "https://github.com/jqhph/dcat-admin/tree/1.7.9"
+                "source": "https://github.com/jqhph/dcat-admin/tree/2.1.5-beta"
             },
-            "time": "2020-12-24T13:51:01+00:00"
+            "time": "2021-09-17T06:04:27+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -3327,81 +3326,6 @@
                 }
             ],
             "time": "2021-03-23T23:28:01+00:00"
-        },
-        {
-            "name": "symfony/dom-crawler",
-            "version": "v5.3.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "c7eef3a60ccfdd8eafe07f81652e769ac9c7146c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/c7eef3a60ccfdd8eafe07f81652e769ac9c7146c",
-                "reference": "c7eef3a60ccfdd8eafe07f81652e769ac9c7146c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.2.5",
-                "symfony/deprecation-contracts": "^2.1",
-                "symfony/polyfill-ctype": "~1.8",
-                "symfony/polyfill-mbstring": "~1.0",
-                "symfony/polyfill-php80": "^1.16"
-            },
-            "conflict": {
-                "masterminds/html5": "<2.6"
-            },
-            "require-dev": {
-                "masterminds/html5": "^2.6",
-                "symfony/css-selector": "^4.4|^5.0"
-            },
-            "suggest": {
-                "symfony/css-selector": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Component\\DomCrawler\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Eases DOM navigation for HTML and XML documents",
-            "homepage": "https://symfony.com",
-            "support": {
-                "source": "https://github.com/symfony/dom-crawler/tree/v5.3.7"
-            },
-            "funding": [
-                {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
-                },
-                {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
-                }
-            ],
-            "time": "2021-08-29T19:32:13+00:00"
         },
         {
             "name": "symfony/error-handler",
