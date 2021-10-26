@@ -13,5 +13,7 @@ return [
         'extensions'    => '扩展',
         'scaffold'      => '代码生成器',
         'icons'         => '图标',
+        'edit_env'      => 'Env',
+        'dcat_plus'     => '站点配置',
     ],
 ];
