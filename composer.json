@@ -12,7 +12,8 @@
         "laravel/framework": "^8.65",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "mosiboom/dcat-iframe-tab": "^1.2"
+        "mosiboom/dcat-iframe-tab": "^1.2",
+        "nivin-studio/dcat-ext-taskscheduling": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

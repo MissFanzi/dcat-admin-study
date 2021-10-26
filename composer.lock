@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9946f4387b9739fc32a28b847d03aee5",
+    "content-hash": "3af1969431966ac9cb168a8bd36815c3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2216,6 +2216,64 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v4.13.0"
             },
             "time": "2021-09-20T12:20:58+00:00"
+        },
+        {
+            "name": "nivin-studio/dcat-ext-taskscheduling",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nivin-studio/dcat-ext-taskscheduling.git",
+                "reference": "b2b9fc1e5ea19ea332f75921bf2014d3f247bd7b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nivin-studio/dcat-ext-taskscheduling/zipball/b2b9fc1e5ea19ea332f75921bf2014d3f247bd7b",
+                "reference": "b2b9fc1e5ea19ea332f75921bf2014d3f247bd7b",
+                "shasum": ""
+            },
+            "require": {
+                "dcat/laravel-admin": "~2.0",
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "extra": {
+                "dcat-admin": "Dcat\\Admin\\Ext\\TaskScheduling\\TaskSchedulingServiceProvider",
+                "laravel": {
+                    "providers": [
+                        "Dcat\\Admin\\Ext\\TaskScheduling\\TaskSchedulingServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dcat\\Admin\\Ext\\TaskScheduling\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ving",
+                    "email": "Ving@nivin.cn"
+                }
+            ],
+            "description": "Dcat Admin 定时任务可视化管理",
+            "homepage": "https://github.com/nivin-studio/dcat-ext-taskscheduling",
+            "keywords": [
+                "dcat-admin",
+                "extension",
+                "manager",
+                "scheduling",
+                "task",
+                "taskscheduling"
+            ],
+            "support": {
+                "issues": "https://github.com/nivin-studio/dcat-ext-taskscheduling/issues",
+                "source": "https://github.com/nivin-studio/dcat-ext-taskscheduling/tree/2.0.0"
+            },
+            "time": "2020-11-18T07:35:52+00:00"
         },
         {
             "name": "opis/closure",
